@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.compare1{
+    margin: 20px;
+margin-left: 100px;
+line-height:25px;
+}
+.compare{
+    margin: 20px;
+    margin-left: 105px;
+    display: flex;
+}
+form {
+    color: purple;
+}
+form select{
+    color: purple;
+}
+
+/*_int_*/
+          .int-2 {
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              position: relative;
+              bottom: 5px;    
+          }
+    
+          .int-2 input {
+              width: 28%;
+              padding: 1%;
+              border: solid 2px purple;
+              box-shadow: 0px 0px 3px 3px var(--p-color);
+          }
+    
+          .int-2 button {
+              width: 12%;
+              padding: 1%;
+              border: solid 2px purple;
+              box-shadow: 0px 0px 3px 3px var(--p-color);
+          }
+/*cheapest*/
+.week{
+margin: 20px;
+    margin-left: 100px;
+    line-height:30px;
+}
+.week01{
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+        margin-left: 100px;
+}
+i{
+    /* color:rgb(44, 43, 43); */
+    margin: 5px;
+}
+p{
+    font-size: 14px;
+    color: rgb(35, 35, 35);
+}
+.week1 {
+border: 1px solid rgb(237, 234, 234);
+padding: 3px;
+line-height:23px;
+}
+.week1 img{
+height: 110px;
+width: 200px;
+}
+.popular{
+        margin-left: 100px;
+}

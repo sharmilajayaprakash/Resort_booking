@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./image/sign.jpg);
+}
+.login-01{
+    width: 40%;
+    height: 65vh;
+    padding: 20px;
+    background-color: white;
+    border-radius: 2px
+  
+}
+.login{
+    display: flex;
+    padding: 85px 20px 20px 200px;
+    
+}
+img{
+    width: 70%;
+    height: 65vh;
+    border-radius: 2px;
+    }
+input {
+    width: 90%;
+    padding:2px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(106, 104, 104);
+    background-color: white;
+}
+button{
+    background-color: purple;
+    border: none;
+    width: 90%;
+    padding: 6px;
+    border-radius: 5px;
+}
+i{
+    color: purple;
+}
+ul li i{
+    color: white;
+}
+.btn button{
+    background-color: white;
+}
+@media only screen and (max-width:950px) and (min-width:350px) {
+    .login{
+        display: flex;
+        flex-direction: column;
+
+    }
+        .login-01{
+            width: 70%;
+        }
+}
+/* .footer1 {
+    /* background-color: #e1bcd8; */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./image/footer.jpg);
+}
+
+.foot-1 {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+
+}
+
+.foot-1 li {
+    list-style: none;
+    margin: 7px;
+
+}
+
+.foot-1 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-01 ul {
+    display: flex;
+}
+
+.foot-02 ul {
+    display: flex;
+    gap: 15px;
+}
+
+.foot-2 a {
+    text-decoration: none;
+}
+
+.foot-2 li {
+    list-style: none;
+} */ 
